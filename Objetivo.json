@@ -1,0 +1,30 @@
+{
+    "title": "LearningCrypto",
+    "objetivo": "Objetivo do meu projeto TCC, é criar um aplicativo que ensine sobre criptografia e segurança da informação, de forma simples e didática.",
+    "description": "Qualquer pessoa possa aprender sobre os algoritmos codificados, hashes e assinaturas mais utilizadas, demostrando de forma pratica como funciona. O aplicativo será gratuito e estará disponível para Android e iOS.",
+    "tecnologias": [
+        "Flutter",
+        "Dart",
+        "MongoDB",
+        "Docker"
+    ],
+    "estudos": [
+        "Criptografia Simértrica",
+        "Criptografia Assimétrica",
+        "Segurança da Informação",
+        "Desenvolvimento Mobile"
+    ],
+    "metodologia": [
+        {
+            "Diffie-Hellman": "Possui problema no Logaritmo Discreto - DLP, usa-se a criptografia RSA",
+            "Curva Eliptica": "É mais seguro do que RSA",
+            "Campos de Galois": "É um campo finito, onde a aritmética é feita com números inteiros módulo um número primo."
+        }
+    ],
+    "referencias": [
+        "https://www.youtube.com/watch?v=rPeOrEZiyDE&t=1681s",
+        "https://www.youtube.com/watch?v=DNYtaOJijns",
+        "https://www.youtube.com/watch?v=GOnRoixUVKA"
+    ],
+    "status": "Em desenvolvimento"
+}
