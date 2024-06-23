@@ -1,12 +1,12 @@
+// ignore_for_file: file_names
 import 'package:flutter/material.dart';
-import 'package:tcc/components/category_item.dart';
+import 'package:tcc/components/category_learning_item.dart';
 import 'package:tcc/data/dummy_data.dart';
 import 'package:tcc/screens/bottom_bar.dart';
 
-class CategoriesScreen extends StatelessWidget {
-  const CategoriesScreen({super.key});
+class CryptoLearning extends StatelessWidget {
+  const CryptoLearning({super.key});
 
-  // pagina Home
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -14,7 +14,7 @@ class CategoriesScreen extends StatelessWidget {
         title: const Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Text('Hello Username !', style: TextStyle(color: Colors.white)),
+            Text('Crypto learning!', style: TextStyle(color: Colors.white)),
             Icon(Icons.settings),
           ],
         ),
@@ -44,9 +44,10 @@ class CategoriesScreen extends StatelessWidget {
             crossAxisSpacing: 1,
             mainAxisSpacing: 20,
           ),
-          children: DUMMY_ILLUSTRATIONS.map((categoria) {
-            print("THIAGO: $categoria");
-            return CategoryItem(category: categoria);
+          children: DUMMY_ILLUSTRATIONS_LEARNING.map((learning) {
+            return CategoriaLearningItem(
+              learning: learning,
+            );
           }).toList(),
         ),
       ),
