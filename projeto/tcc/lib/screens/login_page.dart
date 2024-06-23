@@ -250,6 +250,7 @@ class LoginPage extends StatelessWidget {
 
   }
 
+// api de teste
   Future<List<dynamic>> _consome_api(String email, String password) async {
     http.Response resposta = await http.get(url);
     return json.decode(resposta.body);
