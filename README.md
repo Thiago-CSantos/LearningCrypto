@@ -7,6 +7,7 @@ Descrição breve da aplicação.
 - Funcionalidade 1
 - Funcionalidade 2
 - Funcionalidade 3
+- Funcionalidade 4
 
 ## Requisitos do Sistema
 
